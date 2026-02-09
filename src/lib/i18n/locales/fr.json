@@ -1,0 +1,277 @@
+{
+  "app": {
+    "name": "DeepTrust",
+    "tagline": "Détecter. Expliquer. Gérer le risque Deepfake.",
+    "description": "Analysez images, vidéos, audio et documents financiers avec une IA de confiance."
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "deepfake": "Deepfake Lab",
+    "deepfakeImage": "Images",
+    "deepfakeVideo": "Vidéos",
+    "deepfakeAudio": "Audio",
+    "deepfakeHistory": "Historique",
+    "finance": "Finance Docs",
+    "financeInvoices": "Factures",
+    "financeStatements": "Relevés",
+    "financeContracts": "Contrats / KYC",
+    "financeChecks": "Contrôle cohérence",
+    "reports": "Rapports",
+    "settings": "Paramètres",
+    "admin": "Administration"
+  },
+  "common": {
+    "upload": "Télécharger",
+    "analyze": "Analyser",
+    "processing": "Traitement en cours...",
+    "result": "Résultat",
+    "export": "Exporter",
+    "share": "Partager",
+    "download": "Télécharger",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "view": "Voir",
+    "create": "Créer",
+    "add": "Ajouter",
+    "remove": "Retirer",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "ok": "OK",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information",
+    "loading": "Chargement...",
+    "noData": "Aucune donnée",
+    "tryAgain": "Réessayer",
+    "demo": "Mode Demo",
+    "newScan": "Nouveau scan"
+  },
+  "landing": {
+    "hero": {
+      "title": "Detect. Explain. Manage Deepfake Risk.",
+      "subtitle": "Analysez images, vidéos, audio et documents financiers avec une IA de confiance.",
+      "ctaPrimary": "Essayer la démo",
+      "ctaSecondary": "Voir comment ça marche"
+    },
+    "workflow": {
+      "title": "Workflow simplifié",
+      "step1": "Télécharger",
+      "step1Desc": "Importez votre média ou document",
+      "step2": "Analyser",
+      "step2Desc": "L'IA détecte les anomalies",
+      "step3": "Rapport",
+      "step3Desc": "Exportez votre analyse détaillée"
+    },
+    "features": {
+      "title": "Fonctionnalités",
+      "deepfake": {
+        "title": "Détection Deepfake",
+        "desc": "Détection de face swap, artefacts visuels, signaux de spoofing vocal, anomalies temporelles"
+      },
+      "finance": {
+        "title": "Intelligence Documents",
+        "desc": "Extraction de champs, détection d'incohérences, risque fraude, checklist conformité"
+      },
+      "security": {
+        "title": "Sécurité & Confidentialité",
+        "desc": "Traitement local quand possible, masquage des données, suppression instantanée"
+      }
+    },
+    "useCases": {
+      "title": "Cas d'usage",
+      "media": "Médias & Journalisme",
+      "hr": "Ressources Humaines",
+      "compliance": "Conformité",
+      "banking": "Banque & Finance",
+      "insurance": "Assurance",
+      "audit": "Audit interne"
+    },
+    "securitySection": {
+      "title": "Sécurité & Confidentialité",
+      "local": "Traitement local si possible",
+      "masking": "Masquage des données sensibles",
+      "deletion": "Suppression instantanée après analyse",
+      "noDb": "Pas de stockage en base de données"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": "Comment fonctionne la détection deepfake ?",
+      "a1": "Notre IA analyse les micro-artefacts, les incohérences temporelles et les signatures spectrales pour identifier les manipulations.",
+      "q2": "Mes données sont-elles sécurisées ?",
+      "a2": "Oui, nous ne stockons pas vos données. L'analyse se fait localement ou via des API sécurisées avec suppression immédiate.",
+      "q3": "Quels types de documents financiers sont supportés ?",
+      "a3": "Factures, relevés bancaires, contrats, documents KYC. L'OCR extrait les champs clés et vérifie la cohérence.",
+      "q4": "Le score est-il fiable à 100% ?",
+      "a4": "Non, le score est indicatif. Il faut toujours une validation humaine pour les décisions critiques."
+    },
+    "footer": {
+      "contact": "Contact",
+      "github": "GitHub",
+      "docs": "Documentation",
+      "disclaimer": "Le score fourni est indicatif et ne remplace pas une expertise humaine."
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "stats": {
+      "scansToday": "Scans aujourd'hui",
+      "highRisk": "Risques élevés",
+      "financeAlerts": "Alertes finance",
+      "totalAnalyses": "Analyses totales"
+    },
+    "charts": {
+      "riskTrend": "Tendance risque (7 jours)",
+      "byType": "Par type",
+      "byRisk": "Par niveau de risque"
+    },
+    "recent": {
+      "title": "Dernières analyses",
+      "type": "Type",
+      "date": "Date",
+      "score": "Score",
+      "status": "Statut"
+    }
+  },
+  "deepfake": {
+    "title": "Deepfake Lab",
+    "tabs": {
+      "image": "Image",
+      "video": "Vidéo",
+      "audio": "Audio"
+    },
+    "upload": {
+      "title": "Télécharger un fichier",
+      "dragDrop": "Glissez-déposez votre fichier ici",
+      "orClick": "ou cliquez pour parcourir",
+      "trySample": "Essayer un exemple",
+      "supported": "Formats supportés"
+    },
+    "options": {
+      "title": "Options d'analyse",
+      "sensitivity": "Sensibilité",
+      "sensitivityLow": "Faible",
+      "sensitivityMedium": "Moyenne",
+      "sensitivityHigh": "Élevée",
+      "objective": "Objectif",
+      "objectiveFast": "Rapide",
+      "objectiveComplete": "Complet"
+    },
+    "result": {
+      "title": "Résultat de l'analyse",
+      "score": "Score de confiance",
+      "riskLevel": "Niveau de risque",
+      "riskLow": "Faible",
+      "riskMedium": "Moyen",
+      "riskHigh": "Élevé",
+      "signals": "Signaux détectés",
+      "explanations": "Explications",
+      "visualEvidence": "Preuves visuelles",
+      "heatmap": "Heatmap",
+      "timeline": "Timeline",
+      "waveform": "Forme d'onde",
+      "metadata": "Métadonnées",
+      "generateReport": "Générer le rapport",
+      "exportJson": "Exporter JSON"
+    }
+  },
+  "finance": {
+    "title": "Documents Financiers",
+    "upload": {
+      "title": "Télécharger un document",
+      "supported": "PDF, JPG, PNG"
+    },
+    "result": {
+      "docType": "Type de document détecté",
+      "extractedFields": "Champs extraits",
+      "fieldName": "Nom",
+      "fieldValue": "Valeur",
+      "confidence": "Confiance",
+      "redFlags": "Red Flags",
+      "compliance": "Conformité",
+      "kyc": "KYC",
+      "signature": "Signature",
+      "stamp": "Tampon",
+      "explain": "Expliquer pourquoi",
+      "generateAudit": "Générer note d'audit",
+      "exportCsv": "Exporter CSV"
+    },
+    "flags": {
+      "dateMismatch": "Date incohérente",
+      "totalMismatch": "Total ne correspond pas",
+      "incompleteSupplier": "Info fournisseur incomplète",
+      "missingSignature": "Signature manquante",
+      "suspiciousIban": "IBAN suspect",
+      "duplicate": "Doublon détecté",
+      "amountAnomaly": "Montant anormal"
+    }
+  },
+  "reports": {
+    "title": "Rapports",
+    "list": "Liste des rapports",
+    "generated": "Rapports générés",
+    "exportPack": "Exporter le pack",
+    "template": "Template de rapport",
+    "noReports": "Aucun rapport généré"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": {
+      "title": "Langue",
+      "fr": "Français",
+      "en": "English"
+    },
+    "apiKeys": {
+      "title": "Clés API",
+      "deepfake": "API Deepfake",
+      "finance": "API Finance",
+      "ocr": "API OCR",
+      "placeholder": "Entrez votre clé API",
+      "test": "Tester la connexion",
+      "testing": "Test en cours...",
+      "success": "Connexion réussie",
+      "error": "Échec de la connexion",
+      "hidden": "Clé masquée pour la sécurité"
+    },
+    "demo": {
+      "title": "Mode Demo",
+      "enabled": "Activer le mode demo",
+      "description": "Renvoie des résultats mock réalistes avec latence simulée"
+    },
+    "appearance": {
+      "title": "Apparence",
+      "theme": "Thème",
+      "compact": "Mode compact"
+    }
+  },
+  "admin": {
+    "title": "Administration",
+    "users": {
+      "title": "Utilisateurs",
+      "list": "Liste des utilisateurs",
+      "add": "Ajouter un utilisateur",
+      "role": "Rôle",
+      "status": "Statut"
+    },
+    "stats": {
+      "title": "Statistiques",
+      "usage": "Utilisation",
+      "apiCalls": "Appels API",
+      "storage": "Stockage"
+    },
+    "logs": {
+      "title": "Journaux",
+      "activity": "Activité",
+      "errors": "Erreurs"
+    }
+  }
+}
